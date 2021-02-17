@@ -19,3 +19,11 @@ Content-Type: application/json
     "name": "Kyle",
     "password": "password"
 }
+
+###
+POST http://localhost:3000/users/dashboard
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJLeWxlIiwicGFzc3dvcmQiOiIkMmIkMTAkSDEzTTFWSTE0NWZJNmwxdjBldU5TdUFZM0J2b0loeEQxY2ROdXMvZk9iNEtLRW9VOUtHZFMifSwiaWF0IjoxNjEzNTkwMTc5LCJleHAiOjE2MTM1OTAyMDl9.YIEEw6sXHsVuP1yqTjEACPWy-Ag-zQkneM5Qp07jhyg"
+}
