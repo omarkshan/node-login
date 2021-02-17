@@ -1,0 +1,27 @@
+{
+  "name": "node-login",
+  "version": "1.0.0",
+  "description": "A simple node login authentication server",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarkshan/node-login.git"
+  },
+  "author": "Omar El Shanawany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omarkshan/node-login/issues"
+  },
+  "homepage": "https://github.com/omarkshan/node-login#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
